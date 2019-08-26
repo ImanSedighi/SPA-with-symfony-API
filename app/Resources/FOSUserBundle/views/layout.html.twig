@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	<section style="height:calc(100% - 70px);">
+	    <div class="container h-100">
+	        <div class="row h-100 d-flex">
+	            <div class="card px-4 py-5 col-12 offset-sm-3 col-sm-6 mt-4 justify-content-center align-self-center">
+	                {% block fos_user_content %}{% endblock %}
+	            </div>
+	        </div>
+	    </div>
+   	</section>
+{% endblock %}

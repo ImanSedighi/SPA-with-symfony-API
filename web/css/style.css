@@ -1,0 +1,39 @@
+html, body {
+	height: 100%;
+}
+
+header{
+	border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.logo h1{
+	font-size: 22px;
+}
+
+.logo img{
+	width: 30px;
+}
+
+.btn{
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.font-80{
+	font-size: 80px;
+}
+
+#fos_user_registration_form input[type="email"], input[type="text"], input[type="password"]{
+	display: block;
+	width: 100%;
+	padding: .375rem .75rem;
+	margin-bottom: 10px;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

@@ -1,0 +1,14 @@
+fos_user_security:
+    resource: "@FOSUserBundle/Resources/config/routing/security.xml"
+
+fos_user_register:
+    resource: "@FOSUserBundle/Resources/config/routing/registration.xml"
+    prefix: /register
+
+app_web:
+    resource: '@AppBundle/Controller/Web'
+    type: annotation
+
+app_api:
+    resource: '@AppBundle/Controller/Api'
+    type: annotation
